@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "3270";
+    src: url(/font/3270-Regular.ttf);
+}
+
+@font-face {
+    font-family: "edunline";
+    src: url(/font/edunline.ttf)
+}
+
+@font-face {
+    font-family: "DOS";
+    src: url(/font/PerfectDOSVGA437.ttf);
+}
+
+* {
+    box-sizing: content-box;
+    padding: 25px;
+    margin: 0%;
+}
+
+@media screen and (max-width: 768px) {
+
+    #content {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        height: 40vh;
+        padding: 0px;
+        /*border: solid 10px orange;*/
+        justify-content: center;
+    }
+}
+
+
+
+#content2 {
+    display: flex;
+    box-sizing: content-box;
+    width: 25%;
+    height: 50vh;
+    margin: auto;
+    border: solid 10px orange;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#content3 {
+        display: flex;
+        box-sizing: content-box;
+        width: 25%;
+        height: 30vh;
+        margin: auto;
+        border: solid 10px orange;
+        background-color: black;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+}
+
+#content4 {
+    display: flex;
+    box-sizing: content-box;
+    width: 1700px;
+    height: 70vh;
+    margin: auto;
+   /*border: solid 10px green;*/
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#content5 {
+    display: flex;
+    box-sizing: content-box;
+    width: 1700px;
+    height: 70vh;
+    margin: auto;
+    border: solid 10px green;
+    background-color: rgb(21, 21, 21);
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.card {
+    display: flex;
+    box-sizing: content-box;
+    border: solid 5px green;
+    background-color: rgb(21, 21, 21);
+    width: 25%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    background-image: url(/Images/company.png);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+footer {
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+
+.p {
+    font-family: "3270";
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h {
+    font-family: "edunline";
+    color: orange;
+    font-size: 64px;
+    text-align: center;
+}
+
+#h2 {
+    font-family: "edunline";
+    color: orangered;
+    font-size: 70px;
+    text-align: center;
+}
+
+#h3 {
+    font-family: "edunline";
+    color: green;
+    font-size: 50px;
+    text-align: center;
+}
+#h4 {
+    text-align: left;
+    font-family: "3270";
+    font-size: 25px;
+    color: green;
+}
+
+#h5 {
+    text-align: center;
+    font-family: "3270";
+    font-size: 25px;
+    color: green;
+}
+
+#data {
+    font-family: "edunline";
+    color: green;
+    font-size: 60px;
+    text-align: center;
+}
+
+.data2 {
+    font-family: "3270";
+    color: green;
+    font-size: 25px;
+}
+
+#you {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.r {
+    font-family: "3270";
+    color: orange;
+    font-size: 25px;
+}
+
+img {
+    width: 100%;
+    height: 30vh;
+    align-self: center;
+    object-fit: contain;
+}
