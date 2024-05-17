@@ -1,16 +1,16 @@
 @font-face {
     font-family: "3270";
-    src: url(/font/3270-Regular.ttf);
+    src: url(./font/3270-Regular.ttf);
 }
 
 @font-face {
     font-family: "edunline";
-    src: url(/font/edunline.ttf)
+    src: url(./font/edunline.ttf)
 }
 
 @font-face {
     font-family: "DOS";
-    src: url(/font/PerfectDOSVGA437.ttf);
+    src: url(./font/PerfectDOSVGA437.ttf);
 }
 
 * {
@@ -98,7 +98,7 @@
 
 body {
     background-color: black;
-    background-image: url(/Images/company.png);
+    background-image: url(./Images/company.png);
     background-repeat: no-repeat;
     background-size: 1900px;
 }
